@@ -9,12 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Button {
-            print("Hited2")
-        } label: {
-            Text("Hitme2!!")
-        }
-
+        Text("Hello SwiftUI")
+            .font(.largeTitle)
+            .foregroundColor(.blue)
+            .fontWeight(/*@START_MENU_TOKEN@*/.heavy/*@END_MENU_TOKEN@*/)
+            
     }
 }
 
